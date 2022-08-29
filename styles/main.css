@@ -253,7 +253,7 @@ header {
 .menu-grid-item {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
 }
 
@@ -329,12 +329,13 @@ header {
 
 .footer-box {
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-start;
 }
 
 .footer-logo {
   width: 63px;
   height: 56px;
+  margin-right: 136px;
 }
 
 .footer-item h2 {
@@ -348,7 +349,7 @@ header {
 .footer-list {
   padding-left: 0;
   list-style-type: none;
-  margin-top: 0;
+  margin-top: -1px;
 }
 
 .footer-item li {
@@ -368,6 +369,12 @@ header {
   font-weight: 700;
   font-size: 15px;
   color: #faf9f9;
+  margin-top: -3px;
+  line-height: 24px;
+}
+
+.footer-list-info li:first-child {
+  margin-bottom: 8px;
 }
 
 .footer-item-tel li {
@@ -380,8 +387,21 @@ header {
 }
 
 .footer-item-links {
-  margin-right: 45px;
+  margin-right: 161px;
 }
 
 .footer-item-info {
+  margin-right: 143px;
+}
+
+.footer-item-tel {
+  margin-top: -6px;
+}
+
+.footer-item-tel li {
+  letter-spacing: 0.5px;
+}
+
+.footer-list-tel li:first-child {
+  margin-bottom: -6px;
 }
