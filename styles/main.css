@@ -21,6 +21,12 @@ header {
   padding-top: 26px;
   padding-bottom: 26px;
 }
+.header-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-basis: 77%;
+}
 
 .header-logo {
   display: block;
@@ -204,13 +210,19 @@ header {
   font-size: 14px;
   background: #fbb731;
   border-radius: 5px;
-  padding: 10px 21px;
+  padding: 9px 19px;
   display: block;
   width: 130px;
   height: 37px;
   text-align: center;
   text-decoration: none;
   line-height: 2.5;
+  border: 1px solid #fbb731;
+}
+
+.banner-link:hover {
+  background-color: transparent;
+  color: #fbb731;
 }
 
 .menu-header {
@@ -300,6 +312,11 @@ header {
   width: 152px;
   height: 38px;
   position: relative;
+}
+
+.menu-grid-btn:hover {
+  background-color: #f37335;
+  cursor: pointer;
 }
 
 .menu-grid-icon {
@@ -404,4 +421,8 @@ header {
 
 .footer-list-tel li:first-child {
   margin-bottom: -6px;
+}
+
+.footer-item-tel a {
+  color: #fbb731;
 }
