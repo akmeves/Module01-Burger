@@ -426,3 +426,135 @@ header {
 .footer-item-tel a {
   color: #fbb731;
 }
+
+/* Style INDEX */
+
+.main {
+  background: linear-gradient(180deg, #0c4c7b -100%, #1e2f40 100%);
+}
+.wrapper {
+  max-width: 1180px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+.text {
+  color: #faf9f9;
+  flex: 0 0 580px;
+  padding-top: 170px;
+  padding-bottom: 170px;
+}
+.main-title {
+  font-size: 120px;
+  font-weight: 800;
+  text-transform: uppercase;
+  line-height: 120px;
+  margin-bottom: 40px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.main-title span {
+  color: #fbb731;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 38px;
+  display: block;
+  margin-bottom: 10px;
+}
+.text p {
+  font-family: "Open Sans", sans-serif;
+  font-size: 19px;
+  line-height: 1.4;
+  margin-bottom: 42px;
+}
+.main a,
+.promo a {
+  color: #1e2f40;
+  background-color: #fbb731;
+  border-radius: 5px;
+  text-decoration: none;
+  padding: 20px 45px;
+  display: inline-block;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: 700;
+}
+.visual {
+  flex-grow: 1;
+  display: flex;
+  justify-content: flex-end;
+  position: relative;
+}
+.visual-bg {
+  width: 432px;
+  height: 100%;
+  background: linear-gradient(
+    2.42deg,
+    #f37335 -19.6%,
+    #fbb731 100.79%,
+    #fdc830 100.79%
+  );
+}
+.main img {
+  width: 829px;
+  position: absolute;
+  right: -168px;
+}
+.promo {
+  padding-top: 186px;
+  padding-bottom: 46px;
+}
+.promo-left,
+.promo-right {
+  flex: 0 0 49%;
+  color: #fff;
+  box-sizing: border-box;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.promo-left {
+  background-image: url(../img/promo-left.png);
+  padding: 116px 50px;
+}
+.promo-right {
+  background-image: url(../img/promo-right.png);
+  padding: 102px 50px;
+}
+.sale {
+  font-size: 14px;
+  font-weight: 900;
+  background: #f37335;
+  padding: 5px 19px;
+  border-radius: 14px;
+  display: inline-block;
+  text-transform: uppercase;
+  margin-bottom: 3px;
+  margin-top: 0;
+}
+.cost {
+  font-size: 60px;
+  font-weight: 900;
+  margin-bottom: 8px;
+  margin-top: 0;
+}
+.promo-description {
+  font-family: "Open Sans", sans-serif;
+  color: #faf9f9;
+  font-size: 15px;
+  line-height: 24px;
+  margin-bottom: 0;
+}
+.promo-left .promo-description {
+  max-width: 392px;
+}
+.promo-right .promo-description {
+  max-width: 300px;
+  margin-bottom: 20px;
+}
+.free {
+  font-size: 44px;
+  font-weight: 700;
+  margin-bottom: 10px;
+  margin-top: 0;
+}
