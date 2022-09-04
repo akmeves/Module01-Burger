@@ -173,7 +173,7 @@ header {
   background-position: center center;
   padding: 100px;
   text-transform: uppercase;
-  margin-bottom: 103px;
+  margin-bottom: 83px;
 }
 
 .banner-title {
@@ -218,11 +218,15 @@ header {
   text-decoration: none;
   line-height: 2.5;
   border: 1px solid #fbb731;
+  transition: 0.2s;
 }
 
 .banner-link:hover {
   background-color: transparent;
   color: #fbb731;
+}
+.menu {
+  padding-top: 20px;
 }
 
 .menu-header {
@@ -312,6 +316,7 @@ header {
   width: 152px;
   height: 38px;
   position: relative;
+  transition: 0.2s;
 }
 
 .menu-grid-btn:hover {
@@ -425,6 +430,33 @@ header {
 
 .footer-item-tel a {
   color: #fbb731;
+}
+
+.button-up {
+  background-color: #fbb731;
+  color: #1e2f40;
+  font-weight: 700;
+  font-size: 14px;
+  text-transform: uppercase;
+  padding: 5px 20px;
+  text-decoration: none;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  border-radius: 5px;
+  transition: 1s;
+}
+
+.button-up:hover {
+  background-color: #f37335;
+}
+
+.button-up.hidden {
+  opacity: 0;
+}
+
+button-up.visible {
+  opacity: 1;
 }
 
 /* Style INDEX */
